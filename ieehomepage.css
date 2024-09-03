@@ -1,0 +1,154 @@
+.top-cont{
+    background-color: aquamarine;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #F1FAEE;
+    color: #142339;
+}
+
+a{
+    all: unset;
+    font-family: "Montserrat", sans-serif;
+    color: #1D3557;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    padding: 1rem 8rem;
+}
+button{
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #E63946;
+    color: #F1FAEE;
+    font-weight: 500;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:skyblue;
+    padding: 1rem 2rem;
+    align-items: center;
+    border-radius: 0.3rem;
+}
+
+.logo{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.nav-links{
+    display: flex;
+    font-weight: 600;
+    gap: 2rem;
+    
+}
+
+.nav-links a{
+    border-bottom: 2px transparent;
+}
+
+
+.top-section{
+    background-color: ligh;
+}
+.top-section-heading{
+    color:black;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.top-section-para{
+    color:black;
+    margin-left: 430px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+.who{
+    background-color:lightgrey;
+    text-align: center;
+}
+.who-head{
+    font-weight: 500;
+    padding-top: 20px;
+}
+.who-para{
+    color:grey;
+    margin-top: 20px;
+    padding: 20px;
+}
+.vision{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    padding:50px;
+}
+.cont-1{
+    background-color: skyblue;
+    border-radius: 5px;
+    height:200px;
+    width:400px;
+    text-align: center;
+}
+.our-heading{
+    color:black;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.cont-2{
+    background-color: skyblue;
+    border-radius: 5px;
+    height:200px;
+    width:400px;
+    text-align: center;
+    margin-left: 40px;
+}
+.our-para{
+    color:black;
+    margin-top: 40px;
+}
+.card-container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: skyblue;
+    border-radius: 5px;
+    width:400px;
+    height: 400px;
+    margin-top: 50px;
+}
+.card-2{
+    background-color: skyblue;
+    border-radius: 5px;
+    width:400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.team{
+    color:black;
+    
+    text-align: center;
+}
+.card-img{
+ border-radius: 100%;
+ height: 300px;
+ width: 300px;
+ margin-left: 40px;
+ padding-top: 20px;
+}
